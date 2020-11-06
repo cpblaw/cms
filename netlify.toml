@@ -1,0 +1,8 @@
+[build] # default branch
+  publish = "dist/"
+  command = "npm install @sanity/cli && sanity build --no-minify" # no minify for faster build
+
+[[redirects]] # to stop a 404 on browser refresh
+  from = "/*"
+  to = "/index.html"
+  status = 200
