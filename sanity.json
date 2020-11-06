@@ -1,11 +1,11 @@
 {
   "root": true,
+  "api": {
+    "projectId": "kiw8mg3o",
+    "dataset": "production"
+  },
   "project": {
     "name": "CPB Law CMS"
-  },
-  "api": {
-    "projectId": "vtgy6y2a",
-    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
